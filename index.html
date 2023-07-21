@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS files -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header start -->
+    <header class="open">
+        <div class="user">
+           <div class="image">
+            <img src="port-images/Dpassport.jpg"  alt="disha" >
+        </div>  
+            <h1>Disha Verma</h1>
+            <p>Frontend developer</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" >Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- /menu icon -->
+   <div id="menu" class="fa-solid fa-bars fa-xmark"></div> 
+   
+   <!-- Home section starts -->
+   <section class="home" id="home">
+         <h3>Hey there...</h3>
+         <h1>My Name is <span>Disha Verma</span>.</h1>
+         <h2>I am a Frontend Webdeveloper</h2>
+         <p>
+            Welcome to my portfolio! I'm a frontend web developer specializing in creating visually stunning and user-friendly websites.
+             With expertise in HTML, CSS, and JavaScript, I bring concepts to life with seamless interactivity and responsiveness. I have a strong foundation in modern frameworks like React and Vue.js,
+              and I'm skilled in leveraging tools such as Bootstrap and Tailwind CSS. I thrive on collaboration, ensuring client satisfaction by translating their vision into pixel-perfect designs.
+              Continuous learning drives me to incorporate innovative solutions and cutting-edge features. Explore my projects to see how I create
+             immersive experiences that optimize performance and usability. Let's discuss your next web development project!</p>
+   
+        <div class="btns">
+            <a href="#"><button type="button" id="btn1">My resume</button></a>
+            <a href="#"><button type="button" id="btn2">Hire Me</button></a>
+        </div>
+            </section>
+   <!-- Home section ends -->
+
+   <!-- About section starts -->
+      <section class="about" id="About">
+   
+        <div class="heading"><span>About</span> Me</div>
+        <div class="ab-content">
+             <img src="port-images/Dpassport.jpg" id="pic" alt="disha" >
+         <div class="info">
+            <h3><span>NAME :</span> Disha Verma</h3>
+            <h3><span>QUALIFICATION :</span> B-Tech</h3>
+            <h3><span>SKILLS :</span> Html , Css , Javascript</h3>
+            <h3><span>KNOWN LANGUAGES :</span> Hindi , English</h3>
+            <h3><span>POST :</span> Frontend web developer</h3>
+            </div>
+            </div>
+        <div class="counter">
+            <div class="box">
+                <span>4+</span>
+                <h2>Internships</h2>
+            </div>
+            <div class="box">
+                <span>15+</span>
+                <h2>projects</h2>
+            </div>
+        </div>
+        </section>
+   <!-- About section ends -->
+
+   <!-- education section starts -->
+    <section id="education">
+    <div class="heading"><span>Education</span></div>
+    <div class="edu">
+        <div class="edu-box">
+         <i class="fa-solid fa-graduation-cap"></i>
+         <span>2020-2024</span>
+         <p>Bachelor's of Technology in computer science and engineering</p>
+        </div>
+        <div class="edu-box">
+         <i class="fa-solid fa-graduation-cap"></i>
+         <span>2019-2020</span>
+         <p>higher secondary education in PCM</p>
+        </div>
+        <div class="edu-box">
+         <i class="fa-solid fa-graduation-cap"></i>
+         <span>2017-2018</span>
+         <p>High secondary Education</p>
+        </div>
+    </div>
+</section>
+   <!-- education ends here -->
+   <!-- Skill section starts here -->
+   <section id="skill">
+    <div class="heading"><span>Skills</span></div>
+    <div class="skil-img">
+        <div class="box">
+            <img src="port-images/html.png" alt="html">
+        </div>
+        <div class="box">
+            <img src="port-images/css.png" alt="css">
+        </div>
+        <div class="box">
+            <img src="port-images/javascript.png" alt="javascript">
+        </div>
+    </div>
+   </section>
+   <!-- Skill section end here -->
+
+   <!-- contact section starts herre -->
+   <section id="contact">
+    <div class="heading"><span>Contact</span> Me</div>
+    <div class="con-container">
+        <div class="con-info">
+            <h2>Contact Info</h2>
+            <p><i class="fa-solid fa-envelope"></i> Vermadisha623@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +111 222 3333</p>
+            <p><i class="fa-solid fa-location-dot"></i> Indore, India</p>
+        </div>
+        <form >
+           <input type="text" name="fname" id="fname" placeholder="Name" class="box">
+           <input type="gmail" name="gmail" id="gmail" placeholder="Email" class="box">
+           <input type="text" name="prj" id="prj" placeholder="Project" class="box">
+           <textarea rows="10" cols="30" placeholder="Message" class="box-Message"></textarea>
+           
+           <button type="button" class="btn-send">Send <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+     </div>
+   </section>
+   <!-- contact section ends here -->
+    <!-- JS files -->
+    <script src="script.js"></script>
+</body>
+</html>
